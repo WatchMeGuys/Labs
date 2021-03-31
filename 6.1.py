@@ -11,7 +11,7 @@ def mult(x,y):
 def div(x,y):
     return x/y
 def exp(x,y):
-    return x^y
+    return x**y
 def module(x):
     return abs(x)
 def rand(x,y):
