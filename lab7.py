@@ -23,9 +23,11 @@ print(b)
 
 z=conjunction(x,b)
 print(z)
+
 f=open('for7.txt','r+')
 lines=f.readlines()
 f.seek(0)
 f.write(str(z))
-f.write(str(lines))
+for line in lines: # write old content after new
+    f.write(line)
 f.close()
